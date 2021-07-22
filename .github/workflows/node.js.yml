@@ -5,9 +5,11 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main/part3/phonebook ]
+    branches:
+      - main/part3/phonebook
   pull_request:
-    branches: [ main/part3/phonebook ]
+    branches: 
+      - main/part3/phonebook
 
 jobs:
   build:
