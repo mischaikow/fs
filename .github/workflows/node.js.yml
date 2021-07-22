@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - main/part3/phonebook
-  pull_request:
+  pull_request: 
     branches: 
       - main/part3/phonebook
 
