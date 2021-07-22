@@ -88,11 +88,9 @@ app.delete('/api/persons/:id', (request, response) => {
   response.status(204).end()
 })
 
-const PORT = 3002
+const PORT = process.env.PORT || 3002
 // workaround to get VS Code's REST Client to work.
-app.listen(PORT, 'localhost')
-/*
+//app.listen(PORT, 'localhost')
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`)
 })
-*/
